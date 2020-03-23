@@ -25,8 +25,8 @@ const findAndToggleChecked = function (id){
 const findAndUpdateName = function (id, newName){
     try{
         item.validateName(newName);
-        const item =findById(id);
-        item.name = newName;
+        const items = this.findById(id);
+        items.name = newName;
     }catch(error){
        console.log(`Cannot update name: ${error.message}`);
     }
