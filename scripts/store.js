@@ -43,7 +43,6 @@ export default {
     hideCheckedItems,
     findById,
     addItem,
-    addItem,
     findAndToggleChecked,
     findAndUpdateName,
     findAndDelete
