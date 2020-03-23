@@ -43,9 +43,7 @@ const render = function () {
 };
 
 const addItemToShoppingList = function (itemName) {
-  console.log(itemName);
   try{
-    console.log('ran try');
     item.validateName(itemName);
     store.items.push(item.create(itemName));
     render();
